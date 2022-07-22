@@ -1,0 +1,58 @@
+@keyframes example
+{
+	from {background-color: white;}
+	to {background-color: blue;}
+}
+
+
+html
+{
+	background-color: grey;
+}
+
+
+p
+{
+		font-size: 30px;
+    text-align: center;
+    font-family: tahoma;
+    border: 5px solid black;
+    font-weight: bold;
+		background-color: white;
+		top: 100px;
+		position: relative;
+		animation-name: example;
+		animation-duration: 5s;
+
+
+
+}
+
+h1
+{
+    font-size: 30px;
+		background-color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: tahoma;
+    border: 10px solid black;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 200px;
+    height: 82px;
+    position: absolute;
+    left: 693px;
+    top: -7px;
+
+}
+
+img
+{
+	display: block;
+	padding: 150px;
+	padding-left: 80px;
+	width: 1700px;
+	height: 1000px;
+	
+}
